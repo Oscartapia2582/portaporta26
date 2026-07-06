@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo — Oscar Tapia</title>
+  <meta name="description" content="Portafolio de Oscar Tapia — proyectos por categoría.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="categoria">
+
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">OSCAR TAPIA<sup>®</sup></a>
+      <div class="nav__links">
+        <a class="nav__link" href="index.html#trabajo">← Todo el trabajo</a>
+        <a class="nav__link" href="index.html#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero container">
+    <p class="kicker" id="cat-tag">Categoría</p>
+    <h1 class="display" id="cat-title">Trabajo</h1>
+  </header>
+
+  <main class="container section--tight section">
+    <div class="gallery" id="gallery">
+      <!-- Render desde data/projects.json -->
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year">2026</span> <span data-pd="name">Oscar Tapia</span></span>
+    <a href="index.html#contacto">Iniciar un proyecto →</a>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

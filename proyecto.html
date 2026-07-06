@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto — Oscar Tapia</title>
+  <meta name="description" content="Caso de estudio — Oscar Tapia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="proyecto">
+
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">OSCAR TAPIA<sup>®</sup></a>
+      <div class="nav__links">
+        <a class="nav__link" href="index.html#trabajo">← Todo el trabajo</a>
+        <a class="nav__link" href="index.html#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="project">
+    <!-- Render desde data/projects.json -->
+  </main>
+
+  <section class="section cta container">
+    <h2 class="display reveal">¿Tu marca es la <em>siguiente</em>?</h2>
+    <div class="cta__row reveal" style="margin-top:var(--space-4)">
+      <a class="btn btn--solid" href="index.html#contacto">Iniciar un proyecto <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <span>© <span id="year">2026</span> <span data-pd="name">Oscar Tapia</span></span>
+    <a href="index.html#trabajo">Ver más trabajo →</a>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

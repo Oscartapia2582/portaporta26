@@ -1,0 +1,140 @@
+{
+  "_convencion": "Cada proyecto vive en assets/img/{categoria}/{folder}/. Las imágenes se nombran 01.jpg, 02.jpg, 03.jpg... El sitio genera las rutas automáticamente con imageCount. La portada es siempre 01.jpg salvo que definas 'cover'. Formatos aceptados: define 'ext' si no es jpg (webp, png).",
+  "categorias": [
+    {
+      "slug": "branding-corporativo",
+      "nombre": "Branding Corporativo",
+      "tag": "Identidad · Sistemas visuales"
+    },
+    {
+      "slug": "social-media",
+      "nombre": "Social Media",
+      "tag": "Campañas · Contenido · Ads"
+    },
+    {
+      "slug": "campanas-ooh",
+      "nombre": "Campañas OOH",
+      "tag": "Vallas · Mupis · Print"
+    },
+    {
+      "slug": "retoque-imagen",
+      "nombre": "Manipulación y Retoque de Imagen",
+      "tag": "Composición · CGI · Retoque premium"
+    },
+    {
+      "slug": "newsletter",
+      "nombre": "Newsletter",
+      "tag": "Email marketing · Automatización"
+    },
+    {
+      "slug": "campanas-google-media",
+      "nombre": "Campañas Google Media",
+      "tag": "Display · Performance Max · Remarketing"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "ejemplo-branding",
+      "categoria": "branding-corporativo",
+      "folder": "ejemplo-branding",
+      "titulo": "Proyecto de ejemplo — Branding",
+      "cliente": "Nombre del cliente",
+      "anio": "2025",
+      "descripcion": "Reemplaza este proyecto con uno real. Describe la marca en una o dos frases.",
+      "problema": "¿Qué problema de negocio tenía el cliente?",
+      "objetivo": "¿Qué se buscaba lograr?",
+      "proceso": "Investigación, dirección de arte, sistema visual, aplicaciones.",
+      "resultado": "Impacto medible o entregables finales.",
+      "imageCount": 6,
+      "ext": "jpg",
+      "featured": true,
+      "embed": null
+    },
+    {
+      "id": "social-media",
+      "categoria": "social-media",
+      "folder": "seleccion",
+      "titulo": "Social Media",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 52,
+      "featured": false,
+      "embed": null,
+      "ext": "webp"
+    },
+    {
+      "id": "retoque-imagen",
+      "categoria": "retoque-imagen",
+      "folder": "seleccion",
+      "titulo": "Manipulación y Retoque de Imagen",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 18,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    },
+    {
+      "id": "newsletter",
+      "categoria": "newsletter",
+      "folder": "seleccion",
+      "titulo": "Newsletter",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 15,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    },
+    {
+      "id": "campanas-ooh",
+      "categoria": "campanas-ooh",
+      "folder": "seleccion",
+      "titulo": "Campañas OOH",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 12,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    },
+    {
+      "id": "campanas-google-media",
+      "categoria": "campanas-google-media",
+      "folder": "seleccion",
+      "titulo": "Campañas Google Media",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 36,
+      "ext": "webp",
+      "display": "native",
+      "featured": false,
+      "embed": null
+    }
+  ]
+}
